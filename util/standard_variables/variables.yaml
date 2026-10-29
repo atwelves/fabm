@@ -52,6 +52,10 @@ interior:
     units: m
   - name: net_rate_of_absorption_of_shortwave_energy_in_layer
     units: W m-2
+  - name: diffusivity
+    units: m2 s-1
+  - name: dTdz
+    units: degree_Celsius m-1
 bottom:
   - name: bottom_depth_below_geoid
     units: m
@@ -105,6 +109,8 @@ global:
   - name: number_of_days_in_year
     units: d
   - name: maximum_time_step
+    units: s
+  - name: timestep
     units: s
 universal:
   - name: total_carbon
